@@ -1,0 +1,45 @@
+html {
+    background-color: #c7f0d8;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #43523d;
+    margin: 0;
+}
+
+@media screen and (min-width: 768px){
+    img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .container {
+        flex-direction: row;
+    }
+}
